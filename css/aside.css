@@ -1,0 +1,43 @@
+aside{
+	float:left;
+	width:175px;
+	margin:30px 0 0 0;
+	background:url(../imgs/aside_vline.png) no-repeat
+							right 48px;
+}
+aside h3{
+	height:52px;
+	position:relative;
+	left:-5px;
+	width:180px;
+	background:url(../imgs/aside_h3_back.png)
+					no-repeat left bottom;
+}
+aside h3 div{
+	background:#000;
+	color:#fff;
+	font-size:22px;
+	text-align:center;
+	padding:17px 0;
+}
+aside ul{
+	list-style:none;	
+	margin:20px 0 0 0;
+}
+aside ul li a{
+	padding:20px 0;
+	text-align:center;	
+	display:block;
+	color:#252525;
+	font-size:14px;
+	transition:all 0.1s ease-in-out;
+}
+aside:hover li a{
+	color:rgba(0,0,0,0.2);
+	text-shadow:0 0 5px rgba(0,0,0,0.5);
+}
+aside ul li a:hover{
+	text-shadow:1px 1px 10px rgba(0,0,0,0.3);
+	color:#252525;
+	font-size:1.4em;
+}
